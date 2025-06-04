@@ -32,6 +32,20 @@
     }
 }
 
+@media (max-width: 1350px) {
+    .ability-card {
+        width: 450px;
+        height: 450px;
+        padding: 4% 0;
+    }
+    .ability-img-container img {
+        width: 350px;
+    }
+    .ability-text-container p {
+        max-width: 350px;
+    }
+}
+
 @media (max-width: 1200px) {
     .nav-list a {
         font-size: 17px;
@@ -76,6 +90,24 @@
         width: 130px;
         height: auto;
         margin: 2px 0;
+    }
+}
+
+@media (max-width: 1030px) {
+    .ability-card {
+        width: 100%;
+        height: auto;
+        padding: 4%;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .ability-text-container {
+        margin: 0;
+    }
+    .ability-text-container p {
+        max-width: 450px;
+        font-size: 18px;
     }
 }
 
