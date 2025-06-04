@@ -86,7 +86,7 @@
         height: 30px;
     }
     .homepage {
-        padding: 30px 5% 0;
+        padding: 30px 5% 50px;
         justify-content: center;
         align-items: center;
         gap: 1rem;
@@ -189,7 +189,6 @@
     .image-cover img {
         margin: 0 2px;
     }
-    
 }
 
 @media (max-width: 520px) {

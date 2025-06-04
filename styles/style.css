@@ -69,7 +69,7 @@ nav {
     display: flex;
     flex-direction: row-reverse; 
     justify-content: space-between; 
-    padding: 70px 2% 0;
+    padding: 70px 2%;
     gap: 5rem; 
 }
 
@@ -163,4 +163,57 @@ nav {
 .image-cover img:hover {
     transform: scale(1.1);
     transition: all .2s ease;
+}
+
+/* skilss section */
+
+.ability {
+    width: 100%;
+    height: auto;
+}
+
+.ability h2 {
+    width: 100%;
+    height: 80px;
+    background-color: #FFC700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #280073;
+    letter-spacing: 2px;
+}
+
+.ability-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3rem 3%;
+    gap: 3rem;
+}
+
+.ability-card {
+    width: 280px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #FFC700;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.ability-img-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.ability-img-container p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #280073;
+    margin-top: 30px;
+    text-transform: lowercase;
 }
