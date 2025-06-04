@@ -4,7 +4,7 @@ function updateHeroImg() {
   if (window.innerWidth <= 900) {
     heroImgMobile.src = 'assets/images/gekko-mobile.png';
   } else {
-    heroImgMobile.src = 'assets/images/gekko-img.png'; // ganti ke gambar desktop
+    heroImgMobile.src = 'assets/images/gekko-img.png';
   }
 }
 
@@ -18,4 +18,5 @@ const navList = document.querySelector('.nav-list');
 menu.onclick = () => {
   menu.classList.toggle('bx-x');
   navList.classList.toggle('open');
+  document.documentElement.classList.toggle('no-scroll');
 }

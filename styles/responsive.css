@@ -64,6 +64,7 @@
     .sidebar-container {
         width: 150px;
         height: 385px;
+        border-radius: 15px;
     }
     .sidebar-container h2 {
         font-size: 24px;
@@ -75,7 +76,6 @@
         width: 130px;
         height: auto;
         margin: 2px 0;
-        border-radius: 15px;
     }
 }
 
@@ -145,20 +145,22 @@
         display: flex;
         flex-direction: column;
         backdrop-filter: blur(30px);
-        border-right: 1px solid #F1FF00;
+        border-right: 2px solid #F1FF00;
         transition: all .5s ease-in-out;
     }
     .nav-list a {
         display: block;
         padding: 0;
-        margin: 0 0 40px 0;
+        margin: 0px 0 40px 0;
         font-size: 30px;
         font-weight: 200;
     }
     .nav-list.open {
         left: 0;
     }
-
+    .no-scroll {
+        overflow: hidden;
+    }
     .burger-menu {
         display: block;
         font-size: 40px;
@@ -172,12 +174,11 @@
     .hero-container {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 0;
+        gap: 0;
     }
     .hero-title {
         text-align: center;
     }
-
     .sidebar-container {
         width: 480px;
         height: auto;
@@ -185,10 +186,74 @@
         flex-direction: column;
         padding: 5px;
     }
-
-
     .image-cover img {
         margin: 0 2px;
     }
     
+}
+
+@media (max-width: 520px) {
+    .sidebar-container {
+        width: 420px;
+        height: auto;
+        padding: 2px;
+        
+    }
+    .image-cover {
+        padding: 10px 0 0 0;
+    }
+    .image-cover img {
+        width: 95px;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav-list {
+        width: 100%;
+        border: 0;
+    }
+    .hero-img-container img {
+        width: 230px;    
+    }
+    .hero-title p {
+        max-width: 300px;
+        font-size: 12px;
+    }
+    .hero-title button {
+        width: 180px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .sidebar-container {
+        width: 320px;
+    }
+    .sidebar-container h2 {
+        font-size: 18px;
+    }
+    .image-cover img {
+        width: 70px;
+        height: auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-img-container img {
+        width: 200px;
+    }
+    .hero-title p {
+        max-width: 250px;
+        font-size: 10px;
+    }
+    .hero-title button {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .sidebar-container {
+        width: 280px;
+    }
+    .image-cover img {
+        width: 60px;;
+    }
 }
