@@ -272,6 +272,9 @@
         height: auto;
     }
 
+    .ability-container {
+        padding: 3rem 3% 100px;
+    }
     .ability-card {
         padding: 5%;
     }
@@ -345,7 +348,6 @@
     .image-cover img {
         width: 60px;;
     }
-
     .ability-text-container p {
         max-width: 220px;
         font-size: 11px;
