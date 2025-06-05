@@ -259,16 +259,13 @@ footer {
     font-weight: 200;
 }
 
-.footer-contact-container h4 {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0 5px 0 0;
-}
 .footer-contact-container p {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 15px;
     font-weight: 400;
+}
+.footer-contact-container img {
+    width: 50px;
 }
 .footer-contact-container {
     display: flex;
