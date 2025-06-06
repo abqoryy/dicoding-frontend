@@ -1,0 +1,6 @@
+website ini memiliki fitur yang ditopang oleh javascript, yaitu:
+- mengganti navbar menjadi burger navbar ketika tampilan berada di ukuran tertentu
+- mengganti hero image ketika tampilan menjadi lebih keci
+- navbar dengan link yang terhubung dengan konten
+- aside bar yang bisa berfungsi juga sebagai navigasi dengan gambar, terhubung dengan konten juga
+- menggunakan javascript untuk melempar elemen p pada isi kartu konten
